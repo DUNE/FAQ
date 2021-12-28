@@ -3,7 +3,7 @@
 # run it by doing
 # source DebugConnection.sh
 #
-logname="OSXtest_"`eval date +%Y%m%d_%H.%M.%S`".log"
+logname="ConnectTest_"`eval date +%Y%m%d_%H.%M.%S`".log"
 echo "output will go to "$logname
 
 # what os version
