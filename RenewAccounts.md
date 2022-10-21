@@ -39,7 +39,7 @@ Basic Computer Security training is required to be completed at the time the req
 
 **Any additional account renewal needs:**
 To change your password(s), you can consult the [CMS hints for passwords](https://uscms.org/uscms_at_work/computing/getstarted/password_fermilab.shtml).
-Note that if you are changing experiments at Fermilab to CMS, you will need to put in a new DUNE account request to create a DUNE account for you after your FNAL credentials are renewed. Just choosing DUNE as the experiment for a Fermilab renewal if you did NOT have a DUNE account before will not have a new DUNE account created for you.
+Note that if you are changing experiments at Fermilab to DUNE, you will need to put in a new DUNE account request to create a DUNE account for you after your FNAL credentials are renewed. Just choosing DUNE as the experiment for a Fermilab renewal if you did NOT have a DUNE account before will not have a new DUNE account created for you.
 
 Go to [DUNE Requests](
 https://fermi.servicenowservices.com/wp/?id=evg-catitem-browse&spa=1&sys_id=481cf6b6db7636005b1aff621f961954&sysparm_searchstr=DUNE) and choose "Apply for DUNE Computing Accounts
