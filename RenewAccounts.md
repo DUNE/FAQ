@@ -31,9 +31,9 @@ In some cases, Maxine will email you to ask you and/or your Institutional Contac
 
 After the application is submitted, you may be contacted to provide more information. That includes, but is not limited to a requirement from the DOE: "Effective February 1, 2019, all non-U.S. citizens who request new (or renewed) onsite or remote access may require the submission of a curriculum vitae (CV)/resume". Questions are given on the Fermilab application detailing what is needed for the CV.
 
-You will get emails about doing onboarding with FermiWorks, be sure to check your Junk/Spam folders for those. More documentation about this can be found at the [User's Office page](https://get-connected.fnal.gov/accessandbadging/access/).
+You will get emails about doing onboarding with [FermiWorks](https://wd5.myworkday.com/wday/authgwy/fermilab/login.htmld), be sure to check your Junk/Spam folders for those. More documentation about this can be found at the [User's Office page](https://get-connected.fnal.gov/accessandbadging/access/).
 
-Note, you will end up with 3 accounts.  FermiWorks contains your personal information.  Your Services Account provides SSO access to documentation such as DUNE docdb.  Your Unix/Kerberos accounts allow access to computing systems.
+Note, you will end up with 3 accounts.  [FermiWorks](https://wd5.myworkday.com/wday/authgwy/fermilab/login.htmld) contains your personal information.  Your Services Account provides SSO access to documentation such as DUNE docdb.  Your Unix/Kerberos accounts allow access to computing systems.
 
 Basic Computer Security training is required to be completed at the time the request for a new or renewed account is made. There will be a link to the training material on the request form, and you must provide confirmation that you completed training upon form submission.
 
