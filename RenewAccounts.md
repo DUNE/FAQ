@@ -8,7 +8,7 @@ If you have been a Fermilab user and need to renew your DUNE account (and Fermil
 
 **Be sure to start your renewal process the moment you get your reminder email (4-6 weeks before expiration), as approval may take some time**
 
-### Answers to specific questions:###
+### Answers to specific questions:  
 
 **Provide your OrcID**  https://orcid.org if you don't have one.
 **Point of Contact name:** Maxine Hronek
