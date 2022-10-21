@@ -1,4 +1,4 @@
-This procedure is based on the CMS documentation
+This procedure is based on the [CMS documentation](https://uscms.org/uscms_at_work/computing/getstarted/index.shtml)
 
 # Account Renewals
 
