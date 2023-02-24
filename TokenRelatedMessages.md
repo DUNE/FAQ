@@ -18,7 +18,7 @@ $ httokendecode                              # show token```
 
 Submitting a batch job creates a token for you automatically
 
-You can generally fall back to the old kx509 methods in interactive by doing a ``htdestroytoken ``
+You can generally fall back to the old kx509 methods in interactive by doing a `htdestroytoken`
 
 # Plugin version incompatible
 
