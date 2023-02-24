@@ -22,6 +22,37 @@ Submitting a batch job creates a token for you automatically
 
 You can generally fall back to the old kx509 methods in interactive by doing a `htdestroytoken`
 
+# Attempting OIDC authentication with `https://htvaultprod.fnal.gov:8200`
+
+This can happen either the first time you submit a batch job or when you use htgettoken for the first time.  What's happening under the covers it is that the token magician is asking CILogin if you are a real person.  You need to go to the website and say yes, and then you're cool for a month or more. 
+
+When you submit a batch job or do your first `htgettoken -a htvaultprod.fnal.gov -i dune `
+
+you will see:
+
+```Attempting OIDC authentication with https://htvaultprod.fnal.gov:8200
+ 
+Complete the authentication at:
+    https://cilogon.org/device/?user_code=XXXXXX
+No web open command defined, please copy/paste the above to any web browser
+Waiting for response in web browser
+```
+Do what it says.  
+
+1. Open any web browser (doesn't have to be on a gpvm) at the url you are given
+2. Choose Fermilab as your identity provider
+3. authenticate using your services password
+
+And voila, the system will now believe you are a real person for a month and continue as follows:
+
+```
+Storing vault token in /tmp/vt_uXXXX
+Saving credkey to SOMEPLACE
+Saving refresh token ... done
+Attempting to get token from https://htvaultprod.fnal.gov:8200 ... succeeded
+Storing bearer token in /run/user/XXXX/bt_XXXX
+``` 
+
 # Plugin version incompatible
 
 If you see this error message when trying to open a file via xroot
