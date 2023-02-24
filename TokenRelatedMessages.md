@@ -67,7 +67,7 @@ You should write back to scratch and then ifdh cp your files to persistent once 
 
 You may see failures writing from scratch to persistend as well:
 
-For now, your interactive session needs to not be using tokens.  Here is how an interactive session can write back go persistent. 
+For now, your interactive session needs to not be using tokens.  Here is how an interactive session can write back to persistent. 
 
 ```
 $ htdestroytoken
