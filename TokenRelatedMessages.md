@@ -13,9 +13,9 @@ https://fifewiki.fnal.gov/wiki/Getting_started_with_jobsub_lite#More_Explanation
 Commands that are useful:
 
 ```
-$ htgettoken -a htvaultprod.fnal.gov -i dune # renew your token
-$ htdestroytoken                             # get rid of them
-$ httokendecode                              # show token
+htgettoken -a htvaultprod.fnal.gov -i dune # renew your token
+htdestroytoken                             # get rid of them
+httokendecode                              # show token
 ```
 
 Submitting a batch job creates a token for you automatically
@@ -43,7 +43,7 @@ Failed to decode bearer token: ExpiredSignatureError('Signature has expired',)
 It means you are using tokens to access resources and the token has expired (as they do every few hrs). You can renew your token by typing. 
 
 ```
-$ htgettoken -a htvaultprod.fnal.gov -i dune 
+htgettoken -a htvaultprod.fnal.gov -i dune 
 ```
 
 # Can’t write from batch job to persistent
@@ -51,7 +51,10 @@ $ htgettoken -a htvaultprod.fnal.gov -i dune
 Your batch job ifdh command gives an error when you try to copy to persistent
 
 ```
-$ ifdh cp $PWD/time.db $PERSISTENT/.
+ifdh cp $PWD/time.db $PERSISTENT/.
+```
+yields
+```
 Copying 16384 bytes file:///dune/data/users/schellma/LArWrapperExample/time.db => https://fndcadoor.fnal.gov:2880/dune/persistent/users/schellma/./time.db
 gfal-copy error: 17 (File exists) - TRANSFER ERROR: Copy failed (streamed). Last attempt: HTTP 403 : Permission refused  (destination)
 Perhaps you forgot a -D to indicate destination is a directory? 
@@ -69,21 +72,38 @@ You may see failures writing from scratch to persistend as well:
 
 For now, your interactive session needs to not be using tokens.  Here is how an interactive session can write back to persistent. 
 
+Tell the system you want to use a kx509 proxy very, very firmly
+
 ```
-$ htdestroytoken
-$ kx509
-$ voms-proxy-init -rfc -noregen -voms=dune:/dune/Role=Analysis -valid 120:00
-$ export SCRATCH=/pnfs/dune/scratch/users/$USER
-$ export PERSISTENT=/pnfs/dune/persistent/users/$USER
-$ ifdh cp $SCRATCH/myout/time.db $PERSISTENT/myout/.
+export IFDH_TOKEN_ENABLE=0
+export IFDH_PROXY_ENABLE=1 
+htdestroytoken
+```
+
+if you don't already have a normal old-fashioned proxy, get one
+
+```
+kx509
+voms-proxy-init -rfc -noregen -voms=dune:/dune/Role=Analysis -valid 120:00
+```
+
+set up your copy command, this is just an example
+
+```
+export SCRATCH=/pnfs/dune/scratch/users/$USER
+export PERSISTENT=/pnfs/dune/persistent/users/$USER
+ifdh cp $SCRATCH/myout/time.db $PERSISTENT/myout/.
+```
+you should see:
+```
 Copying 24576 bytes https://fndcadoor.fnal.gov:2880/dune/scratch/users/schellma/myout/time.db => https://fndcadoor.fnal.gov:2880/dune/persistent/users/schellma/myout/./time.db
 ```
 
-Works.
+That worked!
 
 To copy wildcarded files:
 
-```$ ifdh cp -D $SCRATCH/myout/*.out $PERSISTENT/myout/.```
+```ifdh cp -D $SCRATCH/myout/*.out $PERSISTENT/myout/.```
 
 
 
