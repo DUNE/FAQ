@@ -1,6 +1,6 @@
 ## DUNE Computing FAQ
 
-[FAQ page][https://github.com/orgs/DUNE/projects/19/views/1]
+[FAQ page](https://github.com/orgs/DUNE/projects/19/views/1)
 
 ## DUNE Computing Newsletters
 
