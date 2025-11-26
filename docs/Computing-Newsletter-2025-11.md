@@ -68,5 +68,5 @@ The training group now meets on alternate Tuesdays at 10 AM FNAL time. Next meet
 Want to read HDF5 files with LArSoft - for now you need to load a special library on the same line as your lar command.
 
 ~~~
-LD_PRELOAD=$XROOTD\_LIB/libXrdPosixPreload.so lar -c standard_reco_protodunehd_keepup.fcl $DATA -n 1
+LD_PRELOAD=$XROOTD_LIB/libXrdPosixPreload.so lar -c standard_reco_protodunehd_keepup.fcl $DATA -n 1
 ~~~
