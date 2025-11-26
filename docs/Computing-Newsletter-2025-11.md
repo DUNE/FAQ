@@ -20,6 +20,12 @@ Please always run a small test first. We will be re-enabling automated messages 
 
 If a jobsub submission ends up held, please check the \[“Why are my jobs held?”\]([https://fifemon.fnal.gov/monitor/d/000000146/why-are-my-jobs-held?from=now-24h\&to=now\&var-cluster=fifebatch\&orgId=1](https://fifemon.fnal.gov/monitor/d/000000146/why-are-my-jobs-held?from=now-24h&to=now&var-cluster=fifebatch&orgId=1)) page and fix the issue.  Also, if your job takes more than 8GB of memory you need to check for memory leaks before you submit any large number of jobs. 
 
+### New version of the computing-basics tutorial
+
+We've updated the [computing-basics](https://dune.github.io/computing-basics) tutorial.  
+
+- tables of contents at the top of pages.
+- updated documentation on tokens, including the new interactive token. 
 
 ### New Spack “workflow” release 
 

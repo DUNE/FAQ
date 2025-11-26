@@ -57,10 +57,10 @@ There is a new hardware database mailing list.
 
 
 
-* New: HWDB mailing list: *[DUNE-HWDB@FNAL.GOV](mailto:DUNE-HWDB@FNAL.GOV)* \
-To subscribe: \
-- Send an e-mail message to *[listserv@fnal.gov](mailto:listserv@fnal.gov)* \
-- Leave the subject line blank \
+* New: HWDB mailing list: *[DUNE-HWDB@FNAL.GOV](mailto:DUNE-HWDB@FNAL.GOV)* 
+To subscribe: 
+- Send an e-mail message to *[listserv@fnal.gov](mailto:listserv@fnal.gov)* 
+- Leave the subject line blank 
 - Type: SUBSCRIBE DUNE-HWDB FIRSTNAME LASTNAME
 
 
