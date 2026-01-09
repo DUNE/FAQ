@@ -14,14 +14,14 @@ Based off of:
 
 These instructions are intended to get users (not developers) of Phlex to a working environment, starting from scratch. This is not the only way in which this can be done, but this method has been verified on the primary supported OS (Alma Linux 9) and will be supported by the Phlex development team on that platform.
 
-We assume that you do *not* have an installation of Spack already. We only support Spack v1.0 and newer, so if you have an older version of Spack we recommend installation of a new one according to these instructions. If you already have a new-enough version of Spack installed, you can skip to step 6.
+These instructions assume that you have Spack available through CVMFS. 
 
 
 ## Installing Spack
 
 ### Step 0: log into a system running AL9 or similar os
 
-These instructions were tested at FNAL but probably work on systems which have `/cvmfs/` available.
+These instructions were tested at FNAL but probably work on any systems which have `/cvmfs/` available.
 
 Start with an empty environment. 
 
