@@ -101,7 +101,9 @@ Comment from Marc Megel:
 
 “The spack subspack instance doesn't need bootstrapping, it mooches off of the /cvmfs area"
 
-Step 5: Modify the Spack configuration to avoid filling `/tmp and /var`. This is not at all related to Phlex, but until there is spack documentation describing this, we recommend it as good practice.
+###vStep 5: Modify the Spack configuration to avoid filling `/tmp and /var`.
+
+This is not at all related to Phlex, but until there is spack documentation describing this, we recommend it as good practice.
 
 If you don’t use vi, please reset editor to something you use. 
 
