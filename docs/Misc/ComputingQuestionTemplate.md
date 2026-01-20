@@ -1,21 +1,25 @@
 ### To help us answer your question, please copy the text below into Slack and then answer.
 
-What is the error message? 
+- What is the error message? 
 
-What are you running? example:LArSoft
+- Where are you running it? FNAL, CERN, local machine?
 
-What version? 
+- What operating system?  SL7/AL9/other
 
-Where are you running it? FNAL, CERN, local machine?
+- What are you running? example:LArSoft
 
-What operating system?  SL7/AL9/other
+- What version? 
 
-Does it include your own custom code?
+- Does it include your own custom code?
 
-What is the command you used to invoke the code? 
+- What is the command you used to invoke the code? 
 
-What is the config file you used? 
+- What is the config file you used? 
 
-What was your input file?
+- What was your input file?
 
-If possible point us to the directory you are running in. 
+- If possible point us to the directory you are running in. 
+
+- If having problems accessing services or data via streaming, rucio, or justin include the output of the command
+
+`htdecodetoken`
