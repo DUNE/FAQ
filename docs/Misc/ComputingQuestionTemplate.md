@@ -2,7 +2,7 @@
 
 - What is the error message? 
 
-- Where are you running it? FNAL, CERN, local machine?
+- Where are you running it? FNAL, CERN, local machine, grid?
 
 - What operating system?  SL7/AL9/other
 
@@ -23,3 +23,5 @@
 - If having problems accessing services or data via streaming, rucio, or justin include the output of the command
 
 `htdecodetoken`
+
+- If running batch, where did you get your original jobscripts from? 
