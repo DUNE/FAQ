@@ -6,7 +6,7 @@ You can find newsletters at https://wiki.dunescience.org/wiki/Computing_Newslett
 
 If you want computing news and have questions, remember to join the DUNE Slack and the #computing-announcements and #computing-questions channels.  (And if you know an answer, please help out.) 
 
-Slack: #computing-questions, #computing-announcements, #computing_training_group
+Slack: #computing-questions, #computing-announcements, #computing-basics-training
 
 ## Upcoming Events
 
