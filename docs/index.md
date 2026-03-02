@@ -11,6 +11,10 @@
 
 [December 2025](https://dune.github.io/FAQ/Computing-Newsletter-2025-12)
 
+[January 2026](https://dune.github.io/FAQ/Computing-Newsletter-2026-01)
+
+[February 2026](https://dune.github.io/FAQ/Computing-Newsletter-2026-02)
+
 ## How-to's
 
-[Phlex Install for CVMFS](https://dune.github.io/FAQ/Misc/)
+[Full Phlex Install for CVMFS](https://dune.github.io/FAQ/Misc/) - you can now do this using spack instead.
