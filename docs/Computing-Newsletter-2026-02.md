@@ -8,7 +8,7 @@ If you want computing news and have questions, remember to join the DUNE Slack a
 
 Slack: #computing-questions, #computing-announcements, #computing_training_group
 
-##Upcoming Events
+## Upcoming Events
 
 ### DUNE AI/ML and Software and Computing Workshop March 10-12 2026 at Rice
 
@@ -22,9 +22,11 @@ Mark your calendars for May 11–15, 2026, for the NPC DUNE Data Analysis School
 
 ### Spack updates for LArSoft and Phlex
 
-There has been a lot of work on spack builds for DUNE software for use on AL9.  Please join the #spack channel in Slack for frequent updates. 
+There has been a lot of work on `spack` builds for DUNE software for use on AL9.  Please join the #spack channel in Slack for frequent updates. 
 
-From V. Hewes (2/16/2026) : the spack environments on CVMFS were just updated – there was a minor update to dune-sw-10_11_01d00-justin-01_06_00-prototype (dune-prototype) reflecting changes in the upstream FNAL environment, and there is also a new phlex-0_1_0-prototype environment, which is symlinked as dune-phlex-prototype for convenience. please let me know if you run into any issues, either with the updated dunesw environment or the new phlex environment!
+From V. Hewes (2/16/2026) : the spack environments on CVMFS were just updated – there was a minor update to `dune-sw-10_11_01d00-justin-01_06_00-prototype` (`dune-prototype`) reflecting changes in the upstream FNAL environment, and there is also a new `phlex-0_1_0-prototype` environment, which is symlinked as `dune-phlex-prototype` for convenience. please let me know if you run into any issues, either with the updated dunesw environment or the new phlex environment!
+
+There is now a `#phlex` slack channel as well. 
 
 #### To get larsoft
 
@@ -39,7 +41,7 @@ spack env activate dune-sw-10_11_01d00-justin-01_06_00-prototype
 ~~~
 source /cvmfs/dune.opensciencegrid.org/spack/setup-env.sh
 echo "Activate dune-phlex-prototype"
-spack env activate phlex-0_1_0-prototype
+spack env activate dune-phlex-prototype
 ~~~
 
 ## Upcoming changes
@@ -67,7 +69,7 @@ Just a reminder that running larsoft still requires Scientific Linux 7 in a cont
 
 ### Tokens
 
-Tokens are the new way to authenticate to access dCache disk, our data catalogs (`rucio`) and submit batch jobs (`justin` and `jobsub`). On SL7, follow these instructions .  The recent dune-prototype dune-prototype spack environment (above) can make tokens using `justin get-token`. We suggest you upgrade to that one.  
+Tokens are the new way to authenticate to access dCache disk, our data catalogs (`rucio`) and submit batch jobs (`justin` and `jobsub`). On SL7, follow these instructions.  The recent prototype spack environments (above) can make tokens using `justin get-token`. We suggest you upgrade to those.  
 
 If you just want to access files via `root` or `xrdcp` and don’t need `rucio` or `justin` you can use this method to get an interactive token. 
 
