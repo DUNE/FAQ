@@ -126,7 +126,7 @@ Just a reminder that running larsoft still requires Scientific Linux 7 in a cont
 
 ### Tokens
 
-Tokens are the new way to authenticate to access dCache disk, our data catalogs (rucio) and submit batch jobs (justin and jobsub). On SL7, follow these instructions .  On AL9, it still depends on which Spack environment you are using.  The recent dune-workflow spack environment (above) can make tokens using justIN get-token. We suggest you upgrade to that one.  
+Tokens are the new way to authenticate to access dCache disk, our data catalogs (rucio) and submit batch jobs (justin and jobsub). On SL7, follow [these instructions](https://dune.github.io/computing-basics/Tokens/index.html).  On AL9, it still depends on which Spack environment you are using.  The recent dune-prototype spack environment (above) can make tokens using `justin get-token`. We suggest you upgrade to that one.  
 
 If you just want to access files via root or xrdcp and don’t need rucio or justin you can use this method to get an interactive token. 
 
