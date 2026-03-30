@@ -44,10 +44,12 @@ We will continue discussion and coordination of Genesis Mission proposals throug
 
 ## Upcoming Events
 
-### Neutrino Physics Center Analysis Workshop at Fermilab, 
+### Neutrino Physics Center Analysis Workshop at Fermilab, May 11-15, 2026
 
-May 11-15, 2026
-Mark your calendars for May 11–15, 2026, for the NPC DUNE Data Analysis School (NPC-DDAS) at Fermilab. The school will provide focused, practical training in DUNE analysis tools and workflows. Applications will open soon; some financial support will be available for selected participants. More info: [https://npc.fnal.gov/npc-data-analysis-school/](https://npc.fnal.gov/npc-data-analysis-school/)
+
+Mark your calendars for May 11–15, 2026, for the NPC DUNE Data Analysis School (NPC-DDAS) at Fermilab. The school will provide focused, practical training in DUNE analysis tools and workflows. 
+
+Applications have now closed. Some financial support will be available for selected participants. More info: [https://npc.fnal.gov/npc-data-analysis-school/](https://npc.fnal.gov/npc-data-analysis-school/)
 
 ### Drop-in computing help at the collaboration meeting in Rapid City
 
