@@ -35,16 +35,12 @@ Genesis Mission Q&A from DOE:
 
 We will continue discussion and coordination of Genesis Mission proposals through the DUNE AI/ML Forum:
 
-[https://indico.fnal.gov/category/1676/](https://indico.fnal.gov/category/1676/)
-
-DUNE Slack: #ai-ml 
-
-Mailing list: dune-ai-ml@fnal.gov
-
-DUNE AI/ML forum bi-weekly meeting: Mondays at 10:00 AM CT
+- [https://indico.fnal.gov/category/1676/](https://indico.fnal.gov/category/1676/)
+- DUNE Slack: #ai-ml 
+- Mailing list: dune-ai-ml@fnal.gov
+- DUNE AI/ML forum bi-weekly meeting: Mondays at 10:00 AM CT
 (Most recent meeting: March 23, 2026)
-
-Co-chairs: Jianming Bian (bianjm@uci.edu) and Leigh Whitehead (leigh.howard.whitehead@cern.ch)
+- Co-chairs: Jianming Bian (bianjm@uci.edu) and Leigh Whitehead (leigh.howard.whitehead@cern.ch)
 
 ## Upcoming Events
 
