@@ -114,7 +114,7 @@ Users can currently run jobs with a fair-share priority.  But we often find seve
 
 ### Reminder: Official Datasets
 
-The Production Group makes official datasets.  The Rice group has created a website for finding them. There are also command line tools for exploring further.  See the tutorial  for details or go straight to the website to find your samples.
+The Production Group makes official datasets.  The Rice group has created a website for finding them. There are also command line tools for exploring further.  See the [tutorial](https://dune.github.io/computing-basics/03-data-management/index.html#official-datasets-) for details or go straight to the [website](https://dune-tech.rice.edu/dunecatalog/) to find your samples.  
 
 ### Reminder of Wednesday down times
 
