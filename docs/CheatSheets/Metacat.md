@@ -11,7 +11,7 @@ Go to the [Official Datasets page](https://dune-tech.rice.edu/dunecatalog/) and 
 or do a query with 
 
 ```bash
-metacat query "datasets matching <namespace>:*having datasetpar.official=True and dune.campaign=<campaign_name> and core.data_tier=<data_tier>"
+metacat query "datasets matching <namespace>:* having datasetpar.official=True and dune.campaign=<campaign_name> and core.data_tier=<data_tier>"
 ```
 ### Find namespaces
 
