@@ -36,10 +36,10 @@ metacat file show -m -l -j <namespace>:<filename> # json format
 ### Important fields
 
 | field | description |
-| --- | --- |
+| ---- | ---- |
 | name | filename must be unique in namespace |
 | namespace | (often the run_type) |
-| created_timestamp | can be a normal date/time or unix timestamp|
+| created_timestamp | can be a normal date/time or unix timestamp |
 | size | in bytes |
 | core.run_type | (vd-protodune, fardet-hd ...) |
 | core.file_type | (mc, detector) |
