@@ -34,6 +34,7 @@ metacat file show -m -l -j <namespace>:<filename> # json format
 ```
 
 ### Important fields
+
 | field | description |
 | --- | --- |
 | name | filename must be unique in namespace |
