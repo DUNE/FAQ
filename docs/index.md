@@ -2,25 +2,26 @@
 
 [FAQ page](https://github.com/orgs/DUNE/projects/19/views/1)
 
-[Cheat Sheets](https://dune.github.io/FAQ/CheatSheetIndex)
+## Cheat Sheets
+
+[MetaCat](https://dune.github.io/FAQ/MetaCat)
 
 
 ## DUNE Computing Newsletters
 
-
-[October 2025](https://dune.github.io/FAQ/Computing-Newsletter-2025-10)
-
-[November 2025](https://dune.github.io/FAQ/Computing-Newsletter-2025-11)
-
-[December 2025](https://dune.github.io/FAQ/Computing-Newsletter-2025-12)
-
-[January 2026](https://dune.github.io/FAQ/Computing-Newsletter-2026-01)
-
-[February 2026](https://dune.github.io/FAQ/Computing-Newsletter-2026-02)
+[April 2026](https://dune.github.io/FAQ/Computing-Newsletter-2026-04)
 
 [March 2026](https://dune.github.io/FAQ/Computing-Newsletter-2026-03)
 
-[April 2026](https://dune.github.io/FAQ/Computing-Newsletter-2026-04)
+[February 2026](https://dune.github.io/FAQ/Computing-Newsletter-2026-02)
+
+[January 2026](https://dune.github.io/FAQ/Computing-Newsletter-2026-01)
+
+[December 2025](https://dune.github.io/FAQ/Computing-Newsletter-2025-12)
+
+[November 2025](https://dune.github.io/FAQ/Computing-Newsletter-2025-11)
+
+[October 2025](https://dune.github.io/FAQ/Computing-Newsletter-2025-10)
 
 ## How-to's
 
