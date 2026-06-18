@@ -48,6 +48,6 @@ metacat file show -m -l -j <namespace>:<filename> # json format
 | core.application.name | (cafmaker, reco2 ...) |
 | core.application.version | (v10_03_01d1 ...) |
 | dune_mc.gen_fcl_filename | what was generated |
-| dune_mc.geometry_version | geomoetry version |
+| dune_mc.geometry_version | geometry version |
 | dune_mc.generators | event generators used |
 
