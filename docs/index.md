@@ -1,11 +1,10 @@
-## DUNE Computing FAQ
+# DUNE Computing FAQ
 
 [FAQ page](https://github.com/orgs/DUNE/projects/19/views/1)
 
 ## Cheat Sheets
 
-[MetaCat](https://dune.github.io/FAQ/MetaCat)
-
+[Git](https://dune.github.io/FAQ/Git) | [MetaCat](https://dune.github.io/FAQ/MetaCat) | [FHiCL](https://dune.github.io/FAQ/FHiCL) | [Spack](https://dune.github.io/FAQ/Spack)
 
 ## DUNE Computing Newsletters
 
