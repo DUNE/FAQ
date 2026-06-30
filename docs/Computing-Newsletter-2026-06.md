@@ -102,13 +102,8 @@ Describes how to set up the IceWM on your gpvm
 
 And also provides a script from Dom Brailsford  that you can use to set up your VNC system. 
 
-
-```
 ~~~
 source /nashome/d/dbrailsf/setupVNC.sh
-```
-
-
 ~~~
 
 
@@ -120,32 +115,21 @@ There has been a lot of work on spack builds for DUNE software for use on AL9.  
 ##### To get `larsoft`
 
 ~~~
-
 source /cvmfs/dune.opensciencegrid.org/spack/setup-env.sh
-
 echo "Activate dune-prototype"
-
 spack env activate dune-prototype
-
 ~~~
 
 
 ##### To get `phlex` (our new framework for testing)
 
 ~~~
-
 source /cvmfs/dune.opensciencegrid.org/spack/setup-env.sh
-
 echo "Activate dune-phlex-prototype"
-
 # currently phlex-0_2_0-prototype
-
 spack env activate dune-phlex-prototype
-
-
-```
 ~~~
-```
+
 
 
 
@@ -182,7 +166,7 @@ Genesis Mission Q&A from DOE:
 We will continue discussion and coordination of Genesis Mission proposals through the DUNE AI/ML Forum:
 
 
-#### AI/ML working group
+### AI/ML working group
 
 [https://indico.fnal.gov/category/1676/](https://indico.fnal.gov/category/1676/)
 
@@ -195,43 +179,44 @@ DUNE AI/ML forum bi-weekly meeting: **Mondays at 10:30 AM CT**
 Co-chairs: Jianming Bian (bianjm@uci.edu) and Leigh Whitehead (leigh.howard.whitehead@cern.ch)
 
 
-#### **Reminder: Official Datasets**
+### **Reminder: Official Datasets**
 
 The Production Group makes official datasets.  The Rice group has created a website for finding them. There are also command line tools for exploring further.  See [the tutorial ](https://dune.github.io/computing-basics/03-data-management/index.html#official-datasets-) for details or go straight to the [website](https://dune-tech.rice.edu/dunecatalog/) to find your samples.
 
 
-#### **Reminder of Wednesday down times**
+### **Reminder of Wednesday down times**
 
 A reminder that the Fermilab compute nodes and disk servers undergo monthly maintenance on the 3rd Wednesday of each month. Systems are partially unavailable for 3-6 hours, which leads to things not working.  
 
 
-#### **Using SL7**
+### **Using SL7**
 
 Just a reminder that running larsoft still requires Scientific Linux 7 in a container.  You can find sample scripts for setting up your container [here](https://dune.github.io/computing-basics/sl7_setup). 
 
 
-#### **Tokens**
+### **Tokens**
 
 Tokens are the new way to authenticate to access dCache disk, our data catalogs (rucio) and submit batch jobs (justin and jobsub). On SL7, follow [these instructions](https://dune.github.io/computing-basics/Tokens/index.html) .  On AL9, it still depends on which Spack environment you are using.  The recent dune-prototype spack environment (above) can make tokens using justIN get-token. We suggest you upgrade to that one.  
 
 If you just want to access files via root or xrdcp and don’t need rucio or justin you can use this method to get an interactive token. 
 
 
-```
+
 ~~~
 htgettoken -i dune --vaultserver htvaultprod.fnal.gov -r interactive 
 export BEARER_TOKEN_FILE=/run/user/`id -u`/bt_u`id -u`
 export X509_CERT_DIR=/cvmfs/oasis.opensciencegrid.org/mis/certificates
 ~~~
-```
 
 
 
-#### **Tips and Tricks: **
+
+## **Tips and Tricks:** 
 
 
-#### Want to read HDF5 files with LArSoft - for now you need to load a special library on the same line as your lar command.
+### Want to read HDF5 files with LArSoft - for now you need to load a special library on the same line as your lar command.
 
+~~~
  `LD_PRELOAD=$XROOTD_LIB/libXrdPosixPreload.so lar -c standard_reco_protodunehd_keepup.fcl $DATA -n 1`
-
+~~~
 
