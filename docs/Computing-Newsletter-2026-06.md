@@ -42,7 +42,7 @@ Indico: [https://indico.fnal.gov/category/1781/](https://indico.fnal.gov/categor
 
 DUNE Slack: phlex
 
-Mailing list: c
+Mailing list: dune-phlex
 
 bi-weekly meeting: **Mondays at 10:30 AM CT**
 
