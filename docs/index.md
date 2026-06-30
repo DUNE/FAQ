@@ -8,6 +8,8 @@
 
 ## DUNE Computing Newsletters
 
+[May-June 2026](https://dune.github.io/FAQ/Computing-Newsletter-2026-06)
+
 [April 2026](https://dune.github.io/FAQ/Computing-Newsletter-2026-04)
 
 [March 2026](https://dune.github.io/FAQ/Computing-Newsletter-2026-03)
