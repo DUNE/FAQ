@@ -2,7 +2,7 @@
 ## DUNE Computing Newsletter for July-August 2026 
 
 
-## The purpose of this newsletter is to inform the collaboration of recent and upcoming changes in computing.  We’re in the middle of an ‘exciting’ time for computing as we’re constantly adapting to new operating systems and authentication methods.  This means there are frequent changes that affect all DUNE users.  We offer[ tutorials](https://dune.github.io/computing-basics/), the [wiki](https://wiki.dunescience.org), and a [FAQ](https://github.com/orgs/DUNE/projects/19/) page, but those move more slowly so we’re trying this newsletter as a way to bridge the gap between permanent documentation and real-time announcements.
+The purpose of this newsletter is to inform the collaboration of recent and upcoming changes in computing.  We’re in the middle of an ‘exciting’ time for computing as we’re constantly adapting to new operating systems and authentication methods.  This means there are frequent changes that affect all DUNE users.  We offer[ tutorials](https://dune.github.io/computing-basics/), the [wiki](https://wiki.dunescience.org), and a [FAQ](https://github.com/orgs/DUNE/projects/19/) page, but those move more slowly so we’re trying this newsletter as a way to bridge the gap between permanent documentation and real-time announcements.
 
 You can find newsletters at [https://wiki.dunescience.org/wiki/Computing_Newsletters](https://wiki.dunescience.org/wiki/Computing_Newsletters).
 
@@ -119,10 +119,11 @@ export X509_CERT_DIR=/cvmfs/oasis.opensciencegrid.org/mis/certificates
 ~~~
 
 
-#### **Tips and Tricks: **
+### **Tips and Tricks: **
 
 
-#### Want to read HDF5 files with LArSoft?  for now you need to load a special library on the same line as your lar command.
+#### Want to read HDF5 files with LArSoft? 
+for now you need to load a special library on the same line as your lar command.
 
 ~~~
 LD_PRELOAD=$XROOTD_LIB/libXrdPosixPreload.so lar -c standard_reco_protodunehd_keepup.fcl $DATA -n 1
