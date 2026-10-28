@@ -2,7 +2,7 @@
 ## DUNE Computing Newsletter for September- October 2026 
 
 
-## The purpose of this newsletter is to inform the collaboration of recent and upcoming changes in computing.  We’re in the middle of an ‘exciting’ time for computing as we’re constantly adapting to new operating systems and authentication methods.  This means there are frequent changes that affect all DUNE users.  We offer[ tutorials](https://dune.github.io/computing-basics/), the [wiki](https://wiki.dunescience.org), and a [FAQ](https://github.com/orgs/DUNE/projects/19/) page, but those move more slowly so we’re trying this newsletter as a way to bridge the gap between permanent documentation and real-time announcements.
+The purpose of this newsletter is to inform the collaboration of recent and upcoming changes in computing.  We’re in the middle of an ‘exciting’ time for computing as we’re constantly adapting to new operating systems and authentication methods.  This means there are frequent changes that affect all DUNE users.  We offer[ tutorials](https://dune.github.io/computing-basics/), the [wiki](https://wiki.dunescience.org), and a [FAQ](https://github.com/orgs/DUNE/projects/19/) page, but those move more slowly so we’re trying this newsletter as a way to bridge the gap between permanent documentation and real-time announcements.
 
 You can find newsletters at [https://wiki.dunescience.org/wiki/Computing_Newsletters](https://wiki.dunescience.org/wiki/Computing_Newsletters).
 
@@ -85,15 +85,9 @@ The lar version in spack is now pretty complete. Please test running lar from an
 ##### To get `larsoft`
 
 ~~~
-
-
-```
 source /cvmfs/dune.opensciencegrid.org/spack/setup-env.sh
 echo "Activate dune-prototype"
 spack env activate dune-prototype
-```
-
-
 ~~~
 
 The replacement from MRB (MPD) is [documented here](https://github.com/FNALssi/spack-mpd/blob/main/README.md). 
@@ -102,14 +96,10 @@ To get `phlex` (our new framework for testing)
 
 ~~~
 
-
-```
 source /cvmfs/dune.opensciencegrid.org/spack/setup-env.sh
 echo "Activate dune-phlex-prototype"
 spack env activate dune-phlex-prototype
 ~~~
-```
-
 
 
 ## Updates and reminders from previous months
